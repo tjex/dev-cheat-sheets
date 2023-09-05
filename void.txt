@@ -1,2 +1,1 @@
-
 selectStatic('sStream', onclick)

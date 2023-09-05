@@ -1,7 +1,6 @@
 # dev-cheat-sheets
 
-Here I note down any information that could be useful for future reference. E.g. semi-common, but annoying to
-remember / reference commands. 
+Here I note down any information to do with software / computers that I want quick reference to.
 
 I use these cheats sheets in tandem with fzf from my terminal and also within neovim:
 
