@@ -1,0 +1,42 @@
+\documentclass{article}
+
+\usepackage[backend=biber]{biblatex}
+\addbibresource{/Users/tillman/t-root/zotero/my-library.bib}
+
+\author{Tillman Jex}
+\title{The Title}
+
+\begin{document}
+
+\maketitle
+
+
+\section{Section One}
+
+\textbf{Remember that you often need to compile / run twice!}
+
+This is some tex. Afer the first one, we talk about the second one, which is 
+section \ref{list}.
+
+I am text for section one.
+
+\section{Section Two\label{list}}
+
+Note, item \ref{good_times} is important.
+
+\begin{enumerate}
+    \item{eggs}
+    \item{beers}
+    \item{good times \label{good_times}}
+\end{enumerate}
+
+Here I'm ging to reference What and Where is the Internet? \textcite{abbateWhatWhereInternet2017}
+
+And here is a citation in parenteses \parencite{bridleNewDarkAge2018}
+
+\section{Bibliography}
+
+\printbibliography
+
+
+\end{document}

@@ -1,0 +1,12 @@
+---
+documentclass: scrartcl
+title: Title
+subtitle: Subtitle
+author: Author
+date: date
+geometry: margin=2.5cm
+linestretch: 1.2
+fontfamily: inter
+fontfamilyoptions: sfdefault
+---
+

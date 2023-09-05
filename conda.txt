@@ -1,0 +1,6 @@
+Conda 
+
+conda create -n myenv <package>=3.9 | create env with specific versions
+conda active myenv                  | activate an env
+conda deactivate                    | deactivate an env
+cona env remove -n <env-name>       | delete an env

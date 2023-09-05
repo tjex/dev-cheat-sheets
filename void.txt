@@ -1,0 +1,2 @@
+
+selectStatic('sStream', onclick)

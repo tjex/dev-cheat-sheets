@@ -1,0 +1,24 @@
+Raspberry Pi (raspi)
+
+
+sudo systemctl poweroff                  | shutdown
+sudo raspi-config                        | enter config
+df                                       | lists disks
+sudo dd bs=4m if=/dev/r<disk> of=foo.img | create disk image (the r makes it super fast)
+
+---
+samba (makes the raspi accessible as a network drive)
+sudo smbpasswd -a [user]
+config for samba setup in /etc/samba/smb.conf
+
+path = /
+browseable = yes
+writeable = yes
+read only = no
+create mask = 0755
+directory mask = 0755
+guest ok = no
+security = user
+write list = admin
+force user = root
+

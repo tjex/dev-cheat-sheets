@@ -1,0 +1,13 @@
+TidalCycles
+
+~                       | creates a rest                                           
+[n n]                   | creates subdivision                       
+1 2!6                   | plays the second sample 6 times of eqivelant leng
+1 2* 6                  | plays the second sample 6 times subdivided into one beat
+1 [3 8]/2               | first cycle plays 3, second cycle plays 8 
+fast 4                  | run 4 times as fast                       
+{bd sd, hh ht arpy}     | Curly braces aligns each hit with the other
+bd <arpy arpy:1 arpy:2> | plays one arpy per cycle                  
+clap@0.5                | sets duration of clap to half             
+bd(4,9)                 | Euclidean rhythm notation                 
+draw "x(7,12)"          | draws out the notation to console         

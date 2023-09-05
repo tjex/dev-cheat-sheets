@@ -1,0 +1,29 @@
+burnt_yellow       =  #a6794d
+yellow             =  #a6864d
+soft_red           =  #936666
+purple             =  #c3a0ba
+bg                 =  #171A27
+bg_light           =  #1d2030
+bg_lighter         =  #202436
+bg_text            =  #525d8a
+blue_1             =  #496c7a
+blue_2             =  #566981
+black              =  #000000
+
+noir_0             =  #a0a0a0
+noir_1             =  #a0a0a0
+noir_2             =  #a0a0a0
+noir_3             =  #a7a7a7
+noir_4             =  #949494
+noir_5             =  #737373
+noir_6             =  #535353
+noir_7             =  #323232
+noir_8             =  #212121
+noir_9             =  #212121
+
+diagnostic_error   =  #662a25
+diagnostic_info    =  #949494
+diagnostic_warning =  #665025
+diagnostic_hint    =  #25662a
+
+
