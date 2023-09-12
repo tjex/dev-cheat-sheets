@@ -1,10 +1,12 @@
 Git
 
-git log [-n]                     | Lists commit history. -n is number of commits to include
-git branch [branch-name]         | copy repo to a new branch                                                          
-git checkout [branch-name]       | Switches to the specified branch and updates working dir.                          
-git merge                        | Merge your changes back to the main branch                                         
-git diff                         | show the differences between local / repo                                          
-git push [remote-name] -d [name] | delete a remote branch where remote name is name of the "remote", usually "origin"
-git remote add origin (giturl)   | add remote origin                                                                  
-git branch -M main               | create default branch "main"                                                     
+git ...
+log [-n]                                                   | Lists commit history. -n is number of commits to include
+branch [branch-name]                                       | copy repo to a new branch
+checkout [branch-name]                                     | Switches to the specified branch and updates working dir.
+merge                                                      | Merge your changes back to the main branch
+diff                                                       | show the differences between local / repo
+push [remote-name] -d [name]                               | delete a remote branch where remote name is name of the "remote", usually "origin"
+remote add origin (giturl)                                 | add remote origin
+branch -M main                                             | create default branch "main"
+filter-branch -f --tree-filter 'rm -rf .config/abook' HEAD | remove file / folder from entire git commit history
