@@ -26,4 +26,3 @@ diagnostic_info    =  #949494
 diagnostic_warning =  #665025
 diagnostic_hint    =  #25662a
 
-
