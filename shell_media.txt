@@ -8,6 +8,7 @@ ffmpeg -i file-name.mp4 gif-file.gif        | convert mp4 container into gif
                                             |
 mogrify -format png *.jpg                   | convert images
 mogrify -scale 50% *.jpg                    | scale 50% smaller
+magick input.jpg -blur 0x16 output.jpg      | blur an image
 
 wget -pkr https://website.com               | download full website for local use
 
