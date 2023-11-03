@@ -15,13 +15,6 @@ tref() {
         return
     fi
 }
-
-# this will grep through my cheat sheets using a provided search term (e.g. 'sed')
-# and return the results to stdout
-trefg() {
-    local search=$1
-    rg -i -w $search ${HOME}/tjroot/dev/cheat-sheets 
-}
 ```
 
 In neovim: 
@@ -31,3 +24,6 @@ In neovim:
 cmd("Cs", ":lua require('telescope.builtin').find_files({cwd='~/tjroot/dev/cheat-sheets'})<CR>", {})
 
 ```
+
+For oneliner style usage, whereby I want to search for and execute a command directly in the CLI, 
+I use [navi](https://github.com/denisidoro/navi).
